@@ -1,5 +1,3 @@
-#Week 4 Homework
-
 books = input('How many books did the student buy?\n>').lower().strip()
 
 if(books == '0'):
