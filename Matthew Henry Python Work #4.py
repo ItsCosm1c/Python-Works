@@ -1,7 +1,3 @@
-#Week 5 Homework
-#Badge C4-1 (While Loop)
-#Badge C4-2 (For Loop)
-
 hours_watched = 0
 
 movies = {
@@ -10,9 +6,9 @@ movies = {
         '3': "You are now watching The Fugitive. This is now my favorite Harrison Ford film",
     }
 
-while True:     #(Badge C4-1)
+while True:
         print("Welcome to the movie collection. What movie do you want to see?")
-        for key, description in movies.items():     #(Badge C4-2)
+        for key, description in movies.items():  
             print(f"Enter {key} to watch a movie.")
 
         print("Enter 0 to quit")
