@@ -1,12 +1,8 @@
-#Week 5 Homework
-#Badge C4-1 (While Loop)
-#Badge C4-2 (For Loop)
-
 hours_watched = 0
 
-while True:     #(Badge C4-1)
+while True: 
         print("Welcome to the movie collection. What movie do you want to see?")
-        for x in [1,2,3]:     #(Badge C4-2)
+        for x in [1,2,3]: 
             print(f"Enter {x} to watch a movie.")
 
         print("Enter 0 to quit")
