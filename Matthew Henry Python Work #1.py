@@ -1,7 +1,4 @@
-#Week 12 Programming Homework
-#Badge C-10 (Class)
-
-class Monster:      #C-10
+class Monster:     
     def __init__(self, name, monster_type):
         self.__name = name
         self.__monster_type = monster_type
