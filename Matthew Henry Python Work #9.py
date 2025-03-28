@@ -1,9 +1,3 @@
-#Week 8 Homework
-#badge C5-4 (Scope)
-#Badge C6-1 (Try/Except)
-#Badge C6-2 (Read or Write Data)
-
-
 def sum_odd_lines(filename):
     def calculate_sum():
         try: #(C6-1)
@@ -21,6 +15,6 @@ def sum_odd_lines(filename):
         except FileNotFoundError:
             print(f"Error: The file '{filename}' was not found.")
     
-    calculate_sum() #(C5-4) this is the scope function in the code
+    calculate_sum() 
 
-sum_odd_lines('numbers.txt') #(C6-2) this is the part where the code reads the number.txt file
+sum_odd_lines('numbers.txt')
