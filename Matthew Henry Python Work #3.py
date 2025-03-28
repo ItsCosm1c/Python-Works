@@ -1,8 +1,3 @@
-#Week 3 Homework
-#Badge C3-1 (Else/If)
-#Badge C3-2 (Boolean)
-#Badge C3-3 (Comparisons)
-
 password1 = input("Enter your password to get in: \n>").lower().strip()
 password2 = input("Enter another password: \n>").lower().strip()    
 
